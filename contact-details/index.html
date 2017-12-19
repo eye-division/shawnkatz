@@ -11,7 +11,7 @@
     <title>page | © Shawn Katz</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="resources-and-links_files/ae2eff23.css">
+    <link rel="stylesheet" href="contact-details_files/ae2eff23.css">
     <link id="favicon" rel="shortcut icon" href="" type="image/x-icon">
 
     <!-- base href="http://shawnkatz.com/" -->
@@ -84,7 +84,7 @@
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/contact-details" ng-click="linkClicked()" class="ng-binding ng-scope" href="/contact-details/">Contact Details</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
@@ -94,7 +94,7 @@
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/resources-and-links" ng-click="linkClicked()" class="ng-binding ng-scope" href="/resources-and-links/">Resources and Links</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
@@ -142,7 +142,7 @@
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/contact-details" ng-click="linkClicked()" class="ng-binding ng-scope" href="/contact-details/">Contact Details</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
@@ -152,7 +152,7 @@
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/resources-and-links" ng-click="linkClicked()" class="ng-binding ng-scope" href="/resources-and-links/">Resources and Links</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
@@ -163,148 +163,20 @@
         </aside>
 
         <div class="content">
-          <div class="ms-content-items-layout-directive ms-grid" layout-page-data="layoutPageData"><!-- ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="0" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="0-0" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block text-block ms-level-1" data-id="0-0-0"><div style="color:;background-color:;line-height:" ng-bind-html="trustedHTML" ms-content-item-text="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-binding ng-isolate-scope"><p>The British Psychological Society (BPS)&nbsp;<br>
-<a href="http://www.bps.org.uk/" target="_blank">www.bps.org.uk&nbsp;</a><br>
+          <div class="ms-content-items-layout-directive ms-grid" layout-page-data="layoutPageData"><!-- ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="0" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="0-0" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048291029867191"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/6e7c2704-8d29-487d-b6ac-02b2aa7a955d.jpg" src="contact-details_files/6e7c2704-8d29-487d-b6ac-02b2aa7a955d.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block text-block ms-level-1" data-id="0-0-0"><div style="color:;background-color:;line-height:" ng-bind-html="trustedHTML" ms-content-item-text="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-binding ng-isolate-scope"><p><strong>Dr Shawn Katz&nbsp;</strong><br>
+37A Lansdowne Place&nbsp;<br>
+Hove, East Sussex&nbsp;<br>
+BN3 1HF&nbsp;<br>
+United Kingdom&nbsp;<br>
 <br>
-Health Professions Council&nbsp;<br>
-<a href="http://www.hpc-uk.org/" target="_blank">www.hpc-uk.org&nbsp;</a><br>
+Telephone: 07766 707531 or 01273 875961&nbsp;<br>
 <br>
-UK Council for Psychotherapy (UKCP)&nbsp;<br>
-<a href="http://www.psychotherapy.org.uk/" target="_blank">www.psychotherapy.org.uk&nbsp;</a><br>
+E-mail: <a href="http://btinternet.com/" target="_blank">shawnkatz@btinternet.com&nbsp;</a><br>
 <br>
+Website:&nbsp;<a href="http://www.shawnkatz.com/" target="_blank">www.shawnkatz.com&nbsp;</a><br>
 <br>
-EMDR (Eye Movement Desensitization and Reprocessing)&nbsp;<br>
-<br>
-Main EMDR website&nbsp;<br>
-<a href="http://www.emdr.com/" target="_blank">www.emdr.com&nbsp;</a><br>
-<br>
-EMDR UK &amp; Ireland Association&nbsp;<br>
-<a href="http://www.emdrassociation.org.uk/" target="_blank">www.emdrassociation.org.uk&nbsp;</a><br>
-Or write to EMDR UK &amp; Ireland, PO Box 530, Harrow, Middlesex HA1 9BF&nbsp;<br>
-<br>
-EMDR International Association&nbsp;<br>
-<a href="http://www.emdria.org/" target="_blank">www.emdria.org&nbsp;</a><br>
-<br>
-EMDR Europe Association&nbsp;<br>
-<a href="http://www.emdr-europe.org/" target="_blank">www.emdr-europe.org&nbsp;</a><br>
-<br>
-EMDR Network Site&nbsp;<br>
-<a href="http://www.emdrnetwork.org/" target="_blank">www.emdrnetwork.org&nbsp;</a><br>
-<br>
-EMDR Humanitarian Assistance Program&nbsp;<br>
-<a href="http://www.emdrhap.org/" target="_blank">www.emdrhap.org</a>&nbsp;<br>
-<br>
-<br>
-The Brighton Natural Health Centre (Alternative Practitioners Directory):<a href="http://www.bnhc.co.uk/" target="_blank">www.bnhc.co.uk&nbsp;</a><br>
-<br>
-<a href="http://www.naturalmatters.net/" target="_blank">www.naturalmatters.net&nbsp;</a><br>
-<br>
-<a href="http://www.brightonpsychotherapyandcounselling.co.uk/" target="_blank">www.brightonpsychotherapyandcounselling.co.uk</a>&nbsp;<br>
-<br>
-<a href="http://www.counselling-directory.org.uk/" target="_blank">www.counselling-directory.org.uk&nbsp;</a><br>
-<br>
-<a href="http://www.holisticlocal.co.uk/" target="_blank">www.holisticlocal.co.uk&nbsp;</a><br>
-<br>
-<a href="http://www.gotosee.co.uk/" target="_blank">www.gotosee.co.uk&nbsp;</a><br>
-<br>
-<a href="http://www.clickfortherapy.com/" target="_blank">www.clickfortherapy.com</a>&nbsp;<br>
-<br>
-<a href="http://www.selfgrowth.com/" target="_blank">www.selfgrowth.com&nbsp;</a><br>
-<br>
-<a href="http://www.holisticmap.org/" target="_blank">www.holisticmap.org</a>&nbsp;<br>
-<br>
-<a href="http://www.brighton-box.co.uk/" target="_blank">www.brighton-box.co.uk</a>&nbsp;<br>
-<br>
-<a href="http://www.healthypages.co.uk/" target="_blank">www.healthypages.co.uk&nbsp;</a><br>
-<br>
-<a href="http://www.bassprituality.org.uk/" target="_blank">www.bassprituality.org.uk&nbsp;</a><br>
-<br>
-<a href="http://www.brenebrown.com/" target="_blank">www.brenebrown.com</a>&nbsp;<br>
-<br>
-The Natural Health Directory&nbsp;<br>
-<a href="http://www.naturalhealthdirect.com/" target="_blank">www.naturalhealthdirect.com&nbsp;</a><br>
-<br>
-Mind Body Soul Resource&nbsp;<br>
-<a href="http://www.mbspages.co.uk/" target="_blank">www.mbspages.co.uk</a>&nbsp;<br>
-<a href="http://www.selfgrowth.com/" target="_blank">www.selfgrowth.com&nbsp;</a><br>
-<br>
-Mindfulness&nbsp;<br>
-<br>
-<a href="http://www.newroadconsultancy.com/" target="_blank">www.newroadconsultancy.com</a>&nbsp;<br>
-<br>
-Transpersonal&nbsp;<br>
-<br>
-The Institute of Transpersonal Psychology&nbsp;<br>
-<a href="http://www.itp.edu/" target="_blank">www.itp.edu&nbsp;</a><br>
-<br>
-The Association for Transpersonal Psychology&nbsp;<br>
-<a href="http://www.atpweb.org/" target="_blank">www.atpweb.org&nbsp;</a><br>
-<br>
-The European Transpersonal Psychology Association&nbsp;<br>
-<a href="http://www.europsy.org/" target="_blank">www.europsy.org</a>&nbsp;<br>
-<br>
-<br>
-Trauma and PTSD&nbsp;<br>
-<a href="http://www.uktrauma.org.uk/" target="_blank">www.uktrauma.org.uk</a>&nbsp;(UK Trauma Group)&nbsp;<br>
-<a href="http://www.istss.org/" target="_blank">www.istss.org</a>&nbsp;(International Society for Traumatic Stress Studies)&nbsp;<br>
-<a href="http://www.estss.org/" target="_blank">www.estss.org</a>&nbsp;(European Society for Traumatic Stress Studies)&nbsp;<br>
-<a href="http://www.estd.org/" target="_blank">www.estd.org</a>&nbsp;(European Society for Trauma and Dissociation)&nbsp;<br>
-<a href="http://www.isst-d.org/" target="_blank">www.isst-d.org&nbsp;</a>(International Society for the Study of Trauma and Dissociation)&nbsp;<br>
-<a href="http://www.ncptsd.va.gov/" target="_blank">www.ncptsd.va.gov</a>&nbsp;(National [American] Center for PTSD)&nbsp;<br>
-<a href="http://www.nimh.nih.gov/" target="_blank">www.nimh.nih.gov</a>&nbsp;(National [American] Institute of Mental Health)&nbsp;<br>
-<a href="http://www.ukpts.co.uk/" target="_blank">www.ukpts.co.uk</a>&nbsp;(UK Psychological Trauma Society)&nbsp;<br>
-<a href="http://www.trauma-pages.com/" target="_blank">www.trauma-pages.com</a>&nbsp;<br>
-<a href="http://www.understandingdissociation.com/" target="_blank">www.understandingdissociation.com</a>&nbsp;<br>
-<a href="http://www.ptsdhelp.co.uk/" target="_blank">www.ptsdhelp.co.uk&nbsp;</a><br>
-<br>
-<br>
-Carl Jung&nbsp;<br>
-<a href="http://www.cgjungpage.org/" target="_blank">www.cgjungpage.org&nbsp;</a><br>
-<a href="http://www.junginstitut.ch/" target="_blank">www.junginstitut.ch&nbsp;</a><br>
-<a href="http://www.jungian-analysis.org/" target="_blank">www.jungian-analysis.org</a>&nbsp;<br>
-<br>
-<br>
-Calfornia Institute of Integral Studies (CIIS)&nbsp;<br>
-<a href="http://www.ciis.edu/" target="_blank">www.ciis.edu</a>&nbsp;<br>
-<br>
-<br>
-Class Afloat&nbsp;<br>
-<a href="http://www.classafloat.com/" target="_blank">www.classafloat.com</a>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>Couples Therapy</p>
-
-<p>www.beftcommunity.org</p>
-
-<p>www.ICEEFT.com<br>
-<br>
-The American Psychological Association (APA)&nbsp;<br>
-<a href="http://www.apa.org/" target="_blank">www.apa.org&nbsp;</a><br>
-<br>
-Nutrition&nbsp;<br>
-<a href="http://www.fresh-network.com/" target="_blank">www.fresh-network.com</a>&nbsp;<br>
-<a href="http://www.livingfoods.co.uk/" target="_blank">www.livingfoods.co.uk</a>&nbsp;<br>
-<a href="http://www.mannaofbrighton.com/" target="_blank">www.mannaofbrighton.com</a>&nbsp;<br>
-<a href="http://www.hippocratesinst.org/" target="_blank">www.hippocratesinst.org</a>&nbsp;<br>
-<a href="http://www.treeoflife.nu/" target="_blank">www.treeoflife.nu&nbsp;</a><br>
-<a href="http://www.renegadehealthshow.com/" target="_blank">www.renegadehealthshow.com&nbsp;</a><br>
-<br>
-Hoffman Quadrinity Process&nbsp;<br>
-<a href="http://www.hoffmaninstitute.co.uk/" target="_blank">www.hoffmaninstitute.co.uk&nbsp;</a></p>
-
-<p>&nbsp;</p>
-
-<p>Insurance:</p>
-
-<p>http://finder.bupa.co.uk/go/dr_shawn_katz</p>
-
-<p><br>
-<br>
-"Turning our lives around is usually the beginning of maturity since it
-means correcting choices made unconsciously without deliberation or
-thought" - Marsha Sinetar&nbsp;</p>
-</div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="id-143048597803029059" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048597803039294" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048597802930699"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/888b8e10-f597-47f0-b9c1-01f97a3790a9.jpg" src="resources-and-links_files/888b8e10-f597-47f0-b9c1-01f97a3790a9.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --></div>
+Map Link:&nbsp;<a href="http://www.streetmap.co.uk/idld.srf?x=529795&amp;y=104979&amp;z=110&amp;sv=529795,104979&amp;st=4&amp;mapp=idld.srf&amp;searchp=s.srf&amp;dn=553&amp;ax=529615&amp;ay=104469&amp;lm=0" target="_blank">www.streetmap.co.uk/idld.srf?x=529795&amp;y=104979&amp;z=110&amp;sv=529795,104979&amp;st=4&amp;mapp=idld.srf&amp;searchp=s.srf&amp;dn=553&amp;ax=529615&amp;ay=104469&amp;lm=0</a></p>
+</div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="id-143048311746811992" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048312074962355" data-size="6" class="ms-col ms-level-1 ng-scope ms-col-6" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048312074931035"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/3d466327-74c7-460d-a808-9b136337c57c.jpg" src="/images/3d466327-74c7-460d-a808-9b136337c57c.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048311746823316" data-size="6" class="ms-col ms-level-1 ng-scope ms-col-6" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048311746835175"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/acb060c3-08ef-4689-be62-f6d08b89b8a5.jpg" src="/images/acb060c3-08ef-4689-be62-f6d08b89b8a5.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="id-143048320305187760" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048320693810637" data-size="6" class="ms-col ms-level-1 ng-scope ms-col-6" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048320693869512"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/39281fe2-92a7-4989-91a9-382310e8d478.jpg" src="/images/39281fe2-92a7-4989-91a9-382310e8d478.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-14304832030518542" data-size="6" class="ms-col ms-level-1 ng-scope ms-col-6" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048320305123886"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/61ea1a41-f347-40f2-a9d0-df9afb1f6035.png" src="/images/61ea1a41-f347-40f2-a9d0-df9afb1f6035.png"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --></div>
         </div>
 
       </section>

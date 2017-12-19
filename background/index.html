@@ -11,7 +11,7 @@
     <title>page | © Shawn Katz</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="transpersonal-psychotherapy_files/ae2eff23.css">
+    <link rel="stylesheet" href="background_files/ae2eff23.css">
     <link id="favicon" rel="shortcut icon" href="" type="image/x-icon">
 
     <!-- base href="http://shawnkatz.com/" -->
@@ -69,12 +69,12 @@
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/background" ng-click="linkClicked()" class="ng-binding ng-scope" href="/background/">Background</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/transpersonal-psychotherapy/" ng-click="linkClicked()" class="ng-binding ng-scope" href="/transpersonal-psychotherapy/">Transpersonal Psychotherapy</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
@@ -127,12 +127,12 @@
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/background" ng-click="linkClicked()" class="ng-binding ng-scope" href="/background/">Background</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/transpersonal-psychotherapy/" ng-click="linkClicked()" class="ng-binding ng-scope" href="/transpersonal-psychotherapy/">Transpersonal Psychotherapy</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
@@ -163,81 +163,56 @@
         </aside>
 
         <div class="content">
-          <div class="ms-content-items-layout-directive ms-grid" layout-page-data="layoutPageData"><!-- ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="0" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="0-0" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block text-block ms-level-1" data-id="0-0-0"><div style="color:;background-color:;line-height:" ng-bind-html="trustedHTML" ms-content-item-text="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-binding ng-isolate-scope"><p><strong>What is Transpersonal and Integrative Psychotherapy?</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Psychotherapy comes from the Greek words psyche, meaning mind or
-soul, and therapeia, meaning healing, thus psychotherapy can be seen as
-healing of the mind, emotions, and soul. While there is a traditional
-clinical aspect to therapy, Integrative Psychotherapy is a way of
-working with people that uses the most appropriate modality or approach
-depending on the specific needs of a particular client.&nbsp;<br>
+          <div class="ms-content-items-layout-directive ms-grid" layout-page-data="layoutPageData"><!-- ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="0" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="0-0" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block text-block ms-level-1" data-id="id-143048251712883830"><div style="color:;background-color:;line-height:" ng-bind-html="trustedHTML" ms-content-item-text="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-binding ng-isolate-scope"><p><strong>Background</strong></p>
+</div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048243335120197"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/18242e8f-00b8-4438-b904-66908c21453c.jpg" src="/images/18242e8f-00b8-4438-b904-66908c21453c.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block text-block ms-level-1" data-id="0-0-0"><div style="color:;background-color:;line-height:" ng-bind-html="trustedHTML" ms-content-item-text="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-binding ng-isolate-scope"><p><br>
+I was born and grew up in Montreal, Canada. I received a B.A. in
+Psychology from Queen's University in Kingston, Ontario, Canada in 1987.
+ My first M.A. was in East-West Psychology from CIIS (California
+Institute of Integral Studies) in San Francisoco, California in 1990.
+This degree focused on the integration of Western Psychology and Eastern
+ Philosophy. I worked in outdoor experiential education including
+teaching Psychology on a programme called Class Afloat, and worked as a
+Group Leader and Tour Director in Canada, United States, Europe, and
+Israel.&nbsp;<br>
 <br>
-The ultimate goal of integrative, transpersonal psychotherapy is not
-merely the alleviation of suffering, but the integration of physical,
-emotional, mental, and spiritual aspects of well-being. It is not solely
- dwelling on all our troubles, but includes the exploration and focus on
- our potential, the development of our inner resources and
-creativity.&nbsp;<br>
+In 1997 I completed my second M.A. which was a Masters in Counselling
+Psychology (M.A.C.P.) from ITP (Institute of Transpersonal Psychology)
+in Palo Alto, California. I received my Ph.D. in Transpersonal Psychoogy
+ in 1999 from ITP. I completed my EMDR (Eye Movement Desensitization and
+ Reprocessing) training in 2000 and became an Accredited EMDR Approved
+Practitioner in 2001 by the EMDR UK &amp; Ireland Association and
+Approved EMDR Consultant in 2006.&nbsp;<br>
 <br>
-There is a misconception that therapy is only for people with serious
-emotional or mental health problems. While this is true for some,
-psychotherapy is often and increasingly being used by those of us who
-want to understand our own behaviours and emotional reactions and
-patterns, and is a powerful tool for personal growth and increased
-self-awareness.&nbsp;<br>
+I have been living and working in the UK since 2000. I held the post of
+Specialist Psychologist in the Alcohol &amp; Trauma Service in Sussex
+Partnership NHS Trust in Brighton, East Sussex for over 9 years.
+Currently I work in private psychotherapy practice where I work with
+adults, couples, and provide clinical supervision.&nbsp;<br>
 <br>
-Carl Jung said that he had to create a new therapy for each client. In
-that spirit I attempt to follow the lead of each individual and provide
-what is needed to help activate and allow the individuals own inner
-healing system to flourish. I do not try and fit a client into a fixed
-theoretical approach but try and integrate various approaches and
-orientations; this may include psychodynamic interpretations,
-cognitive-behavioural strategies (CBT), body-oriented therapy, EMDR,
-existential perspectives, person-centered counselling, solution-focused
-tools, and transpersonal elements.</p>
-
-<p><br>
-<strong>What is Transpersonal?</strong>&nbsp;</p>
-</div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048259713579728"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/ed9804d7-c500-4b86-b3af-43920b033af1.jpg" src="transpersonal-psychotherapy_files/ed9804d7-c500-4b86-b3af-43920b033af1.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="id-143048266119110923" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048266119140093" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block text-block ms-level-1" data-id="id-143048266119043921"><div style="color:;background-color:;line-height:" ng-bind-html="trustedHTML" ms-content-item-text="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-binding ng-isolate-scope"><p>Transpersonal,
- literally meaning beyond or 'trans' the personal or individual, is
-considered the most recent movement in psychology, and includes
-integrative, holistic, spiritual, and transcendent elements in
-psychology.&nbsp;<br>
-<br>
-Transpersonal Psychology as I practice it is a combination of Clinical
-Psychology and Integrative Psychotherapy. Transpersonal is a holistic
-approach that addresses multiple facets in a person's life: emotional,
-psychological, intellectual, creative, social, physical (body) and
-spiritual.&nbsp;<br>
-<br>
-Transpersonal experiences are those moments where you go beyond your
-usual sense of identity or personality to encompass a wider perpective
-of yourself and the world. This can include experiences of intense love,
- enhanced perception, spiritual and religious experiences, and 'peak
-experiences'. Transpersonal practices can include mindfulness,
-meditation, dream work, breathwork, journaling, yoga, and other
-spiritual disciplines.&nbsp;<br>
-<br>
-Transpersonal experiences generally have a profoundly transforming
-effect on the lives of those who experience them. These experiences can
-make you more aware of the distorting and pathological limitations of
-your own ordinary self and dysfunctional patterns which may be worked
-with and transformed for a more full psychological and spiritual
-maturity.&nbsp;<br>
-<br>
-Transpersonal psychology draws knowledge and practices from mainstream
-psychology, anthropology, history, sociology, philosophy, and other
-disciplines when helpful and needed, and tries to understand them from
-the more inclusive transpersonal perspective.&nbsp;<br>
+I am a Registered Counselling Psychologist with the HCPC (Health &amp;
+Care Professions Council), Chartered Counselling
+Psychologist,&nbsp;Associate Fellow, and Registered Supervisor&nbsp;with
+ the BPS (British Psychological Society), an Accredited Integrative
+Psychotherapist with UKCP (UK Council for Psychotherapy), and a
+Registered EuroPsy Psychologist with EFPA (European Federation of
+Psychologists' Associations). I am a professional member of ISTSS
+(International Society for Traumatic Stress Studies), ESTSS (European
+Society for Traumatic Stress Studies),&nbsp;the UKPTS (UK Psychological
+Trauma Society), and a professional member of ICEEFT (International
+Centre for Excellence in Emotionally Focused Therapy) and BEFTC (The
+British Emotionally Focused Therapy Community). I am also an
+International Affiliate Member of the American Psychological Association
+ (APA) and a full Professional member of EMDR UK &amp; Ireland
+Association.&nbsp;<br>
 <br>
 <br>
-"Whatever his intent, he had to follow his dreams and visions, seeking
-their wisdom no matter how painful. It was an incomplete answer but it
-was the only direction he had right then, and he knew no more would be
-given until he followed the one at hand" Tom Brown Jr.- The Vision&nbsp;</p>
-</div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="id-143048267740655471" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048267740729708" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-14304826774062305"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/9d17192b-2b10-4f85-93fc-9f4ac744611d.jpg" src="transpersonal-psychotherapy_files/9d17192b-2b10-4f85-93fc-9f4ac744611d.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --></div>
+"People say that what we are all seeking is some meaning to this life. I
+ don't think that that's what we're really seeking. I think that what
+we're really seeking is an experience of being alive, so that our life
+experiences on the purely physical plane will have resonances within our
+ innermost being so that we actually feel the rapture of being alive." -
+ Joseph Campbell- The Power of the Myth&nbsp;</p>
+</div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="id-143048246127731124" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048246127763876" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048246127735764"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/d3b96af2-8606-452a-bf1e-a441b0ce6b4b.jpg" src="/images/d3b96af2-8606-452a-bf1e-a441b0ce6b4b.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --></div>
         </div>
 
       </section>
@@ -246,7 +221,7 @@ given until he followed the one at hand" Tom Brown Jr.- The Vision&nbsp;</p>
         <ms-copyright><div class="copyright ng-scope"> © Copyright © Shawn Katz 2017 </div></ms-copyright>
       </footer>
 
-      <div src="https://themes.mrsite.com/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/f5dbd3ea-e563-40ac-a9a4-fa8fee2aa7c0/assets/js/main.js"><script src="/scripts/main.js"></script></div></div></div></div></div></div>
+      <div src="https://themes.mrsite.com/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/f5dbd3ea-e563-40ac-a9a4-fa8fee2aa7c0/assets/js/main.js"><script src="background_files/main.js"></script></div></div></div></div></div></div>
     <!--<div ms-login-popup settings="{provider:'Paypal'}"></div>-->
 
 
@@ -255,12 +230,12 @@ given until he followed the one at hand" Tom Brown Jr.- The Vision&nbsp;</p>
     <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
-    <script src="scripts/97322ef9.js"></script>
+    <script src="background_files/97322ef9.js"></script>
 
-    <script src="/precache.json"></script>
-    <script src="/config.js"></script>
+    <script src="background_files/precache.json"></script>
+    <script src="background_files/config.js"></script>
 
-    <script src="/scripts/98a9ac14.js"></script>
+    <script src="background_files/98a9ac14.js"></script>
 
 
 

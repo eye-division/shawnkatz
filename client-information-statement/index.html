@@ -11,7 +11,7 @@
     <title>page | © Shawn Katz</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="emdr_files/ae2eff23.css">
+    <link rel="stylesheet" href="client-information-statement_files/ae2eff23.css">
     <link id="favicon" rel="shortcut icon" href="" type="image/x-icon">
 
     <!-- base href="http://shawnkatz.com/" -->
@@ -79,7 +79,7 @@
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/emdr" ng-click="linkClicked()" class="ng-binding ng-scope" href="/emdr/">EMDR</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
@@ -89,7 +89,7 @@
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/client-information-statement" ng-click="linkClicked()" class="ng-binding ng-scope" href="/client-information-statement/">Client Information Statement</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
@@ -137,7 +137,7 @@
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/emdr" ng-click="linkClicked()" class="ng-binding ng-scope" href="/emdr/">EMDR</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
@@ -147,7 +147,7 @@
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
-    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope">
+    </li><!-- end ngRepeat: menuItem in menu --><li ng-class="(menuItem.pageId==page.id) ? 'active':''" ng-repeat="menuItem in menu" ng-hide="menuItem.hideInMenu || isShopEnable === false &amp;&amp; menuItem.type === 'Category' || shopUrl === false" class="ng-scope active">
       <!-- ngIf: menuItem.type === 'Page' --><a ng-if="menuItem.type === 'Page'" ng-href="/client-information-statement" ng-click="linkClicked()" class="ng-binding ng-scope" href="/client-information-statement/">Client Information Statement</a><!-- end ngIf: menuItem.type === 'Page' -->
       <!-- ngIf: menuItem.type === 'Category' -->
       <!-- ngIf: menuItem.subMenuItems.length > 0 -->
@@ -163,68 +163,54 @@
         </aside>
 
         <div class="content">
-          <div class="ms-content-items-layout-directive ms-grid" layout-page-data="layoutPageData"><!-- ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="0" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="0-0" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block text-block ms-level-1" data-id="0-0-0"><div style="color:;background-color:;line-height:" ng-bind-html="trustedHTML" ms-content-item-text="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-binding ng-isolate-scope"><p>About EMDR- Eye Movement Desensitization and Reprocessing</p>
-</div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="id-14304827474334012" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048274743340438" data-size="4" class="ms-col ms-level-1 ng-scope ms-col-4" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048274743345251"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/16a749d5-cab1-4d24-ac50-b5acb8773608.jpg" src="emdr_files/16a749d5-cab1-4d24-ac50-b5acb8773608.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048275546427322" data-size="8" class="ms-col ms-level-1 ng-scope ms-col-8" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block spacer-block ms-level-1" data-id="1813aaa4-3038-6544-d59b-f54db1efe4a2"><div style="height:20px" class="ms-spacer ng-isolate-scope" ms-content-item-spacer="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData"></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="id-143048277804596563" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048277804546632" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block text-block ms-level-1" data-id="id-14304827780449988"><div style="color:;background-color:;line-height:" ng-bind-html="trustedHTML" ms-content-item-text="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-binding ng-isolate-scope"><p>EMDR
- is a powerful treatment approach and therapeutic tool. Originally
-developed in 1987 by Dr Francine Shapiro, EMDR is best understood as an
-integrative therapy. It consists of a set of protocols that incorporates
- elements from many different treatment approaches.&nbsp;<br>
+          <div class="ms-content-items-layout-directive ms-grid" layout-page-data="layoutPageData"><!-- ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="0" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="0-0" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048340173445530"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/e0628479-6778-4e06-ad63-5e9e9c43dc3b.gif" src="client-information-statement_files/e0628479-6778-4e06-ad63-5e9e9c43dc3b.gif"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block text-block ms-level-1" data-id="0-0-0"><div style="color:;background-color:;line-height:" ng-bind-html="trustedHTML" ms-content-item-text="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-binding ng-isolate-scope"><p>Therapy
+ is an investment in yourself. For it to be most effective it requires a
+ 100% commitment, personal integrity and responsiility.&nbsp;<br>
 <br>
-Numerous research studies have shown that EMDR can be successful in the
-treatment of Post-Traumatic Stress Disorder (PTSD), and can reduce the
-symptoms and anxiety, intrusive thoughts, nightmares, and flashbacks
-associated with this condition. It is also increasingly being used to
-address many other 'stuck' or distressing conditions and issues, such as
- depression, anxiety, phobias, and complicated grief.&nbsp;<br>
+The following information outlines important agreements regarding entering into therapy.&nbsp;<br>
 <br>
-While researchers are still not certain about the specifics of what
-makes EMDR so successful, they believe that the 'bilateral stimulation'
-or 'dual attention stimulus' has something to do with activating parts
-of the brain responsible for processing and integrating memeries. The
-assumption is that this involves a similar process to that which occurs
-during the REM (rapid eye movement) dream stage of sleeping. The general
- theory is that EMDR activates the individuals own self-healing
-system.&nbsp;<br>
+Confidentiality: All information is held strictly confidential unless
+prior written approval is obtained. The only excpetions to this are
+circumstances where I believe that you might harm yourself, or where
+actual harm could come to a person or place, or where child, spousal, or
+ elder abuse is involved. In these cases, I have an ethical and legal
+obligation to report relevant information to the appropriate
+authorities.&nbsp;<br>
 <br>
-'Ordinary' life events seem to be processed into our memories and become
- an integrated part of our life stories. When a distressing life event
-or trauma occurs (such as a road traffic accident, abuse, rape, natural
-disaster etc.) it seems to overload and upset the balance of the brain's
- information processing system. This imbalance prevents the negative
-event from becoming an ordinary memory and the traumatic event seems to
-get locked in the nervous system with the original picture, sounds,
-smells, thoughts, physical sensations, and feelings.&nbsp;<br>
+Payment Policy: You are responsible for payment at the time of each
+session unless prior arrangements are made. Payment can be made by check
+ or cash. I will provide you with monthly receipts, and fill out
+appropriate sections of private insurance forms. Fees are usually
+increased every 12-18 months, and you will be given 6-8 weeks of prior
+notice.&nbsp;<br>
 <br>
-The eye movements, sounds, or taps used in EMDR seem to activate parts
-of the brain (just as in dreaming) and allow the brain the process the
-negative experience that it was unable to do when the trauma was
-occuring.&nbsp;<br>
-Some people experience a high level of emotional and physical sensations
- that accompany the distressing unresolved memories that are being
-reprocessed. EMDR does not cause these sensations, rather it is your own
- body and brain 'digesting' and unlocking or unfreezing the old memory
-in its attempt to heal and integrate itself. Just as when you cut your
-finger your body works to heal itself, so it is with emotional and
-psychological wounds. For some people, other material, in the forms of
-memories, thoughts, flashbacks, feelings, and dreams may continue to
-emerge between sessions. This is normal, and will be addressed in the
-following therapy session. It is often useful to keep a journal or diary
- after an EMDR session.&nbsp;<br>
+Scheduling and Cancellation Policy: Following our initial assessment
+consultation, if we both feel willing to take the next step I ask for a
+commitment of 5 sessions, to be held weekly. At the end of those
+sessions we will discuss whether you wish to commit to more depth
+oriented therapy. After that time I ask that when you feel ready to end
+therapy you let me know, allowing a minimum of 2-3 sessions for
+closure.&nbsp;<br>
+Other than pre-arranged leave or cancelled sessions (minimum 2 weeks
+notice) a full fee will be charged for any missed or cancelled sessions
+with less than 2 weeks prior notice.&nbsp;<br>
+I take between 6-8 weeks of annual leave and will give you a minimum of 3 weeks advance notification.&nbsp;<br>
 <br>
-EMDR is a client-centered approach, and it is the client that is always in control.&nbsp;<br>
+You have every reason to receive and expect that I will conduct myself
+professionally, responsibly and according to the ethical laws,
+regulations, and code of conduct of the Health &amp; Care Professions
+Council (HCPC), the British Psychological Society (BPS), the UK Council
+of Psychotherapists (UKCP), EMDR UK &amp; Ireland Association, and
+European Federation of Psychologists' Associations (EFPA), all of which I
+ am a full professional member.&nbsp;<br>
 <br>
-I am also a board member on HAP (Humanitarian Assistance Program) UK
-&amp; Ireland, a charity which provides support and training to areas of
- conflict. See HAP Website for more information.&nbsp;<br>
+Having read and understood all of the above are you ready and willing to participate in therapy?&nbsp;<br>
 <br>
-Further information is available at EMDR's main website&nbsp;<a href="http://www.emdr.com/" target="_blank">www.emdr.com&nbsp;</a>or see the Resources and Links page for various other EMDR websites&nbsp;<br>
+If you have any questions or concerns regarding these statements, I will be glad to discuss them.&nbsp;<br>
 <br>
-"[Dylan] spoke to our sense of scary and liberating isolation: the sense
- that we were now living on our own, with 'no direction home', that we
-would have to devise our own rules and our own integrity to make it
-through all the change"- Rolling Stone article&nbsp;<br>
-&nbsp;</p>
-</div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048280493960521"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/d18e0d16-f059-4002-bcb8-017508d626da.jpg" src="emdr_files/d18e0d16-f059-4002-bcb8-017508d626da.jpg"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --></div>
+"Two roads diverged in the woods, and I- I took the one less travelled
+by, and that has made all the difference" Robert Frost&nbsp;</p>
+</div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --><div ng-repeat="row in pagedata" data-id="id-143048515568676372" ng-init="row.settings.color=row.settings.color||'#ffffff'" class="ms-row ms-level-1 ng-scope" style=""><div class="ms-row-inner"><!-- ngRepeat: col in row.content --><div ng-repeat="col in row.content" data-id="id-143048515568791217" data-size="12" class="ms-col ms-level-1 ng-scope ms-col-12" ng-class="'ms-col-' + col.size"><!-- ngRepeat: next in col.content --><div ng-repeat="next in col.content" class="ng-scope"><!-- ngIf: next.type!=='row' --><div ng-if="next.type!=='row'" level="1" ms-content-item="" content-item-data="next" editable="editable" class="ng-scope ng-isolate-scope"><div ms-content-item-controls="" actions="actions" class="ms-block single-image-block ms-level-1" data-id="id-143048515568630142"><div ms-content-item-single-image="" content-item-data="contentItemData" content-item-meta-data="contentItemMetaData" class="ng-isolate-scope"><div class="ng-scope"><img title="" alt="" ng-src="https://s3-eu-west-1.amazonaws.com/omnibuilder/f1a5e942-deac-4983-86c3-fc5c1a4b39cf/15865cdb-b96e-4cae-9419-43b86143ccec.gif" src="/images/15865cdb-b96e-4cae-9419-43b86143ccec.gif"><!-- ngIf: contentItemData.settings.caption --></div></div><div class="element-controls ms-tools ng-scope"><div class="element-control has-tooltip delete icon-delete" ng-click="deleteElem()" ms-tooltip="" tooltip-content="Delete"></div><div class="element-control has-tooltip settings icon-settings" ng-click="actions.displaySettings()" ms-tooltip="" tooltip-content="Settings"></div><div class="element-control has-tooltip handle icon-drag" ms-tooltip="" tooltip-content="Click and drag to move"></div></div></div></div><!-- end ngIf: next.type!=='row' --><!-- ngIf: next.type==='row' --></div><!-- end ngRepeat: next in col.content --></div><!-- end ngRepeat: col in row.content --></div></div><!-- end ngRepeat: row in pagedata --></div>
         </div>
 
       </section>
