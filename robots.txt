@@ -1,0 +1,6 @@
+# robotstxt.org
+User-agent: *
+Allow: .js
+Allow: .css
+Disallow:
+Sitemap: http://www.shawnkatz.com/sitemap.xml
